@@ -1,0 +1,87 @@
+a {
+	color: #999;
+}
+
+body {
+	font-family: "Lucida Console", "Monaco", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", monospace;
+	font-size: 12pt;
+	color: #333;
+}
+
+#error {
+	color: #f00;
+}
+
+#container {
+	margin: 0 auto;
+	width: 740px;
+}
+
+#header {
+	padding: 20px 20px 10px 20px;
+}
+
+#header h1 {
+	font-size: 18pt;
+}
+
+#content {
+	clear: left;
+	padding: 0 20px 20px 20px;
+}
+
+#content p, #content li {
+	margin-top: 20px;
+}
+
+#content textarea {
+	display: block;
+	width: 740px;
+	height: 23em;
+	border: 1px dotted #606060;
+}
+
+#content input {
+	display: block;
+	padding: 10px 20px;
+	margin-top: 10px;
+	font-size: 14pt;
+	border: 1px solid #606060;
+	background: #cecece;
+}
+
+#content input:active {
+	background: #eee;
+}
+
+#footer {
+	font-size: 12pt;
+	padding: 20px;
+	height: 1%;
+}
+
+#footer ul {
+	margin: 0;
+	padding: 0;
+}
+
+#footer ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+#footer li a {
+	display: block;
+	float: left;
+	padding: 5px 0;
+	margin-right: 20px;
+	text-decoration: none;
+}
+
+#footer li a:hover {
+	text-decoration: underline;
+}
+
+#footer li a:active {
+	text-decoration: none;
+}
